@@ -1,4 +1,4 @@
-type Route = unknown;
+type Route = `/${string}` | `/${string}/${string}`;
 
 export const goToRoute = (route: Route) => {};
 
